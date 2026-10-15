@@ -1,0 +1,10 @@
+{
+  "data": { "id": 1, "title": "example", "completed": false, "tags": ["a"] },
+  "expectations": [
+    { "path": "id", "type": "number" },
+    { "path": "title", "type": "string" },
+    { "path": "completed", "type": "boolean" },
+    { "path": "tags[0]", "type": "string" },
+    { "path": "owner.name", "type": "string" }
+  ]
+}

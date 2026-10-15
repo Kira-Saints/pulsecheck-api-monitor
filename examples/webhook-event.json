@@ -1,0 +1,4 @@
+{
+  "event_type": "order.created",
+  "payload": { "order_id": 1042, "total": 59.9, "paid": true, "items": ["keyboard"], "note": null }
+}

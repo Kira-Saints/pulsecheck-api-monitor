@@ -1,0 +1,8 @@
+{
+  "method": "GET",
+  "url": "https://jsonplaceholder.typicode.com/posts",
+  "query": [{ "key": "userId", "value": "1" }],
+  "headers": [{ "key": "Accept", "value": "application/json" }],
+  "auth": { "type": "none" },
+  "timeout_seconds": 10
+}

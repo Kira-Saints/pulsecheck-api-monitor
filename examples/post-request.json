@@ -1,0 +1,7 @@
+{
+  "method": "POST",
+  "url": "https://jsonplaceholder.typicode.com/posts",
+  "body": { "title": "hello", "body": "from PulseCheck", "userId": 1 },
+  "auth": { "type": "bearer", "token": "replace-with-your-own-token" },
+  "timeout_seconds": 10
+}
